@@ -1,0 +1,37 @@
+/* 装消息内容的整个盒子容器 */
+.msg-item-container-base {
+  display: flex;
+  margin: 20rpx 10rpx;
+}
+
+/* 头像 */
+.avatar-base {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}
+
+/* 消息内容盒子 */
+.box-base {
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+
+  max-width: 500rpx;
+  padding: 10rpx 15rpx;
+  color: black;
+
+  border: none;
+  border-radius: 15rpx;
+}
+
+/* 三角形 */
+.triangle-base {
+  margin-top: 15rpx;
+  width: 0;
+  height: 0;
+  /* 兼容某些浏览器 */
+  line-height: 0;
+  font-size: 0;
+  border: 20rpx solid transparent;
+}

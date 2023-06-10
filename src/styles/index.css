@@ -1,0 +1,44 @@
+:root {
+  --at-color-primary: #111f2c;
+  --colort: red;
+}
+
+.primary-bg {
+  background-color: #111f2c;
+}
+
+.wrapper-with-size {
+  width: 750rpx;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: #111f2c;
+  color: white;
+}
+
+.set-align-center-no-position {
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.set-align-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.set-align-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.set-align-center-y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

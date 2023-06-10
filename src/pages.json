@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/IndexPage",
+      "style": {
+        "navigationBarTitleText": "AI Tools"
+      }
+    },
+    {
+      "path": "pages/identify-detail/IdentifyDetail",
+      "style": {
+        "navigationBarTitleText": "AI Tools"
+      }
+    },
+    {
+      "path": "pages/chat-ai/ChatAi",
+      "style": {
+        "navigationBarTitleText": "AI Tools"
+      }
+    },
+    {
+      "path": "pages/ai-image-detail/AiImageDetail",
+      "style": {
+        "navigationBarTitleText": "AI Tools"
+      }
+    },
+    {
+      "path": "pages/ai-draw-image/AiDrawImage",
+      "style": {
+        "navigationBarTitleText": "AI Tools"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#111f2c",
+    "backgroundColor": "#F8F8F8"
+  }
+}
